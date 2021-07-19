@@ -30,4 +30,5 @@ I took interactive basics courses in :
 Rolling-Scopes JS/FE Pre-School - online courses
 ## **Education :**
 Uncompleted higher education
-
+## **English language level :**
+2B - *Upper-intermediate* 
