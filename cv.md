@@ -14,17 +14,9 @@ I took interactive basics courses in :
 - **Git**
 ## **Example code :**
 ```
-<!DOCTYPE html>
-<html>
-<head>
-	<title>My first page</title>
-</head>
-<body>
-	<div>
-		<p>"Hello World!"</p>
-	</div>
-</body>
-</html>
+function greeting() {
+  console.log('Hello, world!')
+}
 ```
 ## **Experience :**
 Rolling-Scopes JS/FE Pre-School - online courses
