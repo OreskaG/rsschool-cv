@@ -1,1 +1,1 @@
-# rsschool-cv
+https://OreskaG.github.io/rsschool-cv/cv
