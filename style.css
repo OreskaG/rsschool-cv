@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+}
+
+figure {
+	float: right;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+.main {
+	width: 75%;
+	position: absolute;
+    left: 50%;
+    margin-right: -50%; 
+    transform: translateX(-50%);
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+.main h1, h2 {
+	margin-bottom: 0;
+}
+
+.main span {
+	font-weight: bold;
+}
+
+.list ul {
+	list-style-type: none;
+    padding: 0;
+}
