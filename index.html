@@ -10,6 +10,21 @@
 
     <body>
         <main class="main">
+            <nav>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </nav>
+            <ul class="menu">
+                <li class="anchor"><a href="#Contacts">Contacts</a></li>
+                <li class="anchor"><a href="#Personal">Personal</a></li>
+                <li class="anchor"><a href="#Skills">Skills</a></li>
+                <li class="anchor"><a href="#Example code">Code</a></li>
+                <li class="anchor"><a href="#Projects">Projects</a></li>
+                <li class="anchor"><a href="#Experience">Experience</a></li>
+                <li class="anchor"><a href="#Education">Education</a></li>
+                <li class="anchor"><a href="#English language level">English</a></li>
+            </ul>
             <header>
                 <h1>Stepan Volkov</h1>
             </header>
@@ -17,6 +32,7 @@
                 <img src="img/avatar.png" class="avatar" alt="avatar">
             </figure>
             <section class="list">
+                <a class="a" id="Contacts"></a>
                 <h2>Contacts :</h2>
                 <hr>
                 <ul>
@@ -28,11 +44,13 @@
                 </ul>
             </section>
             <section>
+                <a class="a" id="Personal"></a>
                 <h2>Personal :</h2>
                 <hr>
                 <p>I am 30 years old, a few months ago I learned about good programming courses and now I am doing my first task here</p>
             </section>
             <section class="list">
+                <a class="a" id="Skills"></a>
                 <h2>Skills :</h2>
                 <hr>
                 <ul>
@@ -43,6 +61,7 @@
                 </ul>
             </section>
             <section>
+                <a class="a" id="Example code"></a>
                 <h2>Example code :</h2>
                 <hr>
                 <pre>
@@ -60,6 +79,7 @@ var Calculator = {
                 </pre>
             </section>
             <section>
+                <a class="a" id="Projects"></a>
                 <h2>Projects</h2>
                 <hr>
                 <a href="https://rolling-scopes-school.github.io/oreskag-JSFEPRESCHOOL/whack-a-mole/">
@@ -69,16 +89,19 @@ var Calculator = {
                 <h5>Technologies: Html, CSS, JavaScript</h5>
             </section>
             <section>
+                <a class="a" id="Experience"></a>
                 <h2>Experience :</h2>
                 <hr>
                 <p>Rolling-Scopes JS/FE Pre-School - online courses</p>
             </section>
             <section>
+                <a class="a" id="Education"></a>
                 <h2>Education :</h2>
                 <hr>
                 <p>Uncompleted higher education</p>
             </section>
             <section>
+                <a class="a" id="English language level"></a>
                 <h2>English language level :</h2>
                 <hr>
                 <p>2B - Upper-intermediate</p>
@@ -93,6 +116,7 @@ var Calculator = {
 		</footer>
     </main>
     <script src="./libs/highlight/highlight.min.js"></script>
+    <script src="script.js"></script>
     <script>hljs.highlightAll();</script>
     </body>
 </html>
