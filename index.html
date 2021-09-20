@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>CV: Stepan Volkov</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="./libs/highlight/styles/vs2015.min.css">
     </head>
 
     <body>
@@ -43,9 +44,19 @@
             <section>
                 <h2>Example code :</h2>
                 <hr>
-                <p>function greeting() {
-                    console.log('Hello, world!')
-                  }</p>
+                <pre>
+<code class="js">
+var Calculator = {
+  average: function() {
+    if (arguments.length === 0) { return 0 };
+    let result = 0;
+    for ( i = 0 ; i < arguments.length ; i++) {
+      result = result + Number(arguments[i])
+      };
+    return result / arguments.length;
+    }
+</code>
+                </pre>
             </section>
             <section>
                 <h2>Experience :</h2>
@@ -70,5 +81,7 @@
 			</ul>
 		</footer>
     </main>
+    <script src="./libs/highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     </body>
 </html>

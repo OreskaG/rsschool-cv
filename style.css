@@ -38,3 +38,8 @@ footer ul li {
 	list-style-type: none;
     padding: 0;
 }
+
+code {
+    white-space: pre-wrap;
+    word-break: break-all;
+}
