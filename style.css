@@ -41,5 +41,14 @@ footer ul li {
 
 code {
     white-space: pre-wrap;
-    word-break: break-all;
+    word-break: normal;
 }
+
+@media screen and (max-width: 600px) {
+    code {
+      font-size: 9px;
+    }
+    .Project_img {
+        width: calc(100% - 20px);
+    }
+  }
