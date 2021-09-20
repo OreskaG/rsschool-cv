@@ -104,6 +104,7 @@ nav {
     border: solid 2px black;
     padding: 1px;
     margin: 2px;
+    border-radius: 5px;
 }
 
 html {
@@ -159,7 +160,7 @@ header {
         display: none;
         margin-left: 10%;
         margin-top: -20px;
-        font-size: 30px;
+        font-size: 20px;
     }
     .on {
         display: block;
@@ -177,6 +178,9 @@ header {
     .burger.on::before {
         top: 50%;
         transform: rotate(-45deg) translate(0px, -50%);
+    }
+    .main {
+        width: 80%;
     }
 }    
 
