@@ -2,8 +2,6 @@ body {
 	margin: 0;
 }
 
-section { padding-top: 40px; margin-top: -40px;}
-
 figure {
 	float: right;
     margin: 0;
@@ -17,7 +15,7 @@ footer ul li {
 }
 
 .main {
-	width: 75%;
+	width: 50%;
 	position: absolute;
     left: 50%;
     margin-right: -50%; 
@@ -46,7 +44,7 @@ code {
     word-break: normal;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     code {
         font-size: 9px;
     }
@@ -103,6 +101,9 @@ nav {
 .menu li a {
     color: black;
     text-decoration: none;
+    border: solid 2px black;
+    padding: 1px;
+    margin: 2px;
 }
 
 html {
